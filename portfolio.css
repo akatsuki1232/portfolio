@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1600px;
+}
+.info{
+    background-color:#999;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    color: brown;
+    margin-left:5px ; 
+    animation-name: port;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    /* border-radius: 50%; */
+}
+@keyframes port{
+    from{
+ margin-left: 5px;
+    }
+    to{
+margin: 20px;
+    }
+}
+nav{
+    list-style: none;
+    display: flex;
+}
+nav ul{
+    list-style: none;
+    color:white;
+    display: flex;
+
+}
+nav ul li{
+    margin: 10px;
+    display: flex;
+}
+.information{
+    background-color:rgb(82, 80, 80);
+    color: #fff;
+    height: 250px;
+    display: flex;
+}
+.container{
+    width: 50%;
+    margin: 5px;
+}
+h1{
+    color: rgb(230, 194, 147);
+}
+.info-image{
+    width: 50%;
+    animation-name: aashika;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    /* border-radius: 50%; */
+}
+@keyframes aashika{
+    from{
+width:50% ;
+    }
+    to{
+width: 65%;
+    }
+}
+.about-me{
+    background-color: #322d2d;
+    /* display: flex; */
+    height: 600px;
+    color: aliceblue;
+    /* flex-direction: row-reverse; */
+}
+
+.about{
+    display: flex;
+    font-size: 20px;
+    flex-direction: row-reverse;
+}
+h3{
+    color: red;
+    text-align: center;
+}
+p b u{
+    color: aliceblue;
+    /* align-items: end; */
+}
+.about-image{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    animation-name: anya;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes anya{
+    from{
+width:100% ;
+    }
+    to{
+width: 150%;
+    }
+    
+}
+.hobbies{
+    background-color: rgb(53, 222, 222);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius:50px ;
+    height: 200px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    transition: cubic-bezier(0.9s);
+
+}
+.dancing{
+    text-align: center;
+    /* transition-duration:  2s ease-in-out;
+    transition-property:img; */
+
+}
+.dance{
+    display: block;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    margin: 5px;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.watching{
+    text-align: center;
+    
+      
+}
+.anime{
+    display: block;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    margin: 5px;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+   
+}
+.eating{
+    text-align: center;
+    
+
+}
+.peanut{
+    display: block;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    margin: 5px;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+
+}
+.hobbies:hover{
+    transform: translateY(-10px);
+    background-color: bisque;
+}
+.dance:hover{
+    transform: translateY(-10px); 
+}
+.anime:hover{
+    transform: translateY(-10px); 
+}
+.peanut:hover{
+    transform: translateY(-10px); 
+}
+.contact{
+    background-color: rgb(75, 72, 72);
+    height: 100px;
+    text-align: center;
+    color: cornsilk;
+    font-size: 30px;
+}
+.footer-contact{
+    list-style: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: left;
+}
+
